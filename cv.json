@@ -1,275 +1,180 @@
 {
   "basics": {
-    "name": "Miguel Ángel Durán",
-    "label": "Full Stack Developer con más de 15 años de experiencia & Creador de Contenido de Programación",
-    "image": "/me.webp",
-    "email": "miduga@gmail.com",
-    "phone": "+34 688888888",
-    "url": "https://midu.dev",
-    "summary": "+15 años de experiencia como Desarrollador Web. Actualmente soy Creador de Contenido y Divulgador sobre Programación. Vivo en Barcelona, España. He trabajado en diferentes entornos: desde acelerar el desarrollo de start-ups hasta liderando equipos de empresas multinacionales.",
+    "name": "Carlos Miguel",
+    "label": "Desenvolvedor Full Stack com mais de 2 anos de experiência e Criador de Conteúdo de Programação",
+    "image": "/me.jpg",
+    "email": "carlosmigue.dev06@gmail.com",
+    "phone": "+55 (41) 99290-6626",
+    "url": "https://carlos-miguel.vercel.app",
+    "summary": "+2 anos de experiência como Desenvolvedor Web. Comecei a aprender programação por pura curiosidade e acabei por me fascinar. Desde então, não parei mais. No meu tempo livre, gosto de criar conteúdo para o meu canal de YouTube ou de aprender mais sobre a minha área.",
     "location": {
       "address": "",
-      "postalCode": "08820",
-      "city": "el Prat de Llobregat",
-      "countryCode": "ES",
-      "region": "España"
+      "postalCode": "81110-220",
+      "city": "Curitiba",
+      "countryCode": "BR",
+      "region": "Paraná"
     },
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "midudev",
-        "url": "https://linkedin.com/in/midudev"
-      },
-      {
-        "network": "X",
-        "username": "midudev",
-        "url": "https://x.com/midudev"
+        "username": "Carlos Miguel",
+        "url": "https://linkedin.com/in/carlos-miguel06"
       },
       {
         "network": "GitHub",
-        "username": "midudev",
-        "url": "https://github.com/midudev"
+        "username": "Carlos Miguel",
+        "url": "https://github.com/CarMi0Proggramer"
       }
     ]
   },
   "work": [
     {
-      "name": "midudev",
-      "position": "Divulgador sobre Programación Web",
-      "url": "https://twitch.tv/midudev",
-      "startDate": "2021-01-01",
+      "name": "Bombero Callejero",
+      "position": "Desenvolvedor Web Freelance",
+      "url": "https://www.bomberocallejero.es",
+      "startDate": "2025-01",
       "endDate": null,
-      "summary": "Streamer de programación más visto en Español en Twitch. +1 millón de seguidores entre todas mis redes sociales. Reconocido por Google, Microsoft y GitHub por mi impacto en la comunidad de desarrolladores.",
-      "highlights": [
-        "Started the company"
-      ]
+      "summary": "Refactorização e correção de uma plataforma web educativa para bombeiros em Espanha, que oferece mapas de ruas detalhados, juntamente com questionários interativos para avaliar o conhecimento através de perguntas baseadas em mapas, com foco na preparação e formação profissional do corpo de bombeiros. O projeto, inicialmente desenvolvido por outra pessoa, exigiu a correção de inúmeros bugs, o trabalho com mapas utilizando o Leaflet, incluindo a criação do meu próprio plugin Leaflet para renderizar texto em polilinhas com desempenho otimizado, a migração de dois servidores do Laravel 8 e Laravel 9 para o Laravel 10, a implementação de enfileiramento de tarefas para melhor processamento, a otimização de endpoints, o desenvolvimento do frontend com Vue e TypeScript para criar as interfaces de utilizador e a criação de uma secção de imagem digital com um editor do estilo Canva utilizando a biblioteca Konva.js.",
+      "highlights": [""]
     },
     {
-      "name": "Adevinta",
-      "position": "Lead Frontend Architect",
-      "url": "https://twitch.tv/midudev",
-      "startDate": "2016-06-01",
-      "endDate": "2022-09-01",
-      "summary": "Lideré una convergencia técnica entre diferentes productos y migramos una arquitectura monolítica a otra más flexible y optimizada. Fomenté buenas prácticas y mejoras en la cultura de rendimiento, además de la entrega rápida de valor a los usuarios.",
-      "highlights": [
-        "Started the company"
-      ]
+      "name": "Carlos Miguel",
+      "position": "Criador de conteúdo",
+      "url": "https://www.youtube.com/@cm_dev06",
+      "startDate": "2024-09",
+      "endDate": null,
+      "summary": "Disseminação de conteúdo de programação e tecnologia. Criação de cursos de programação. Mais de 200 seguidores",
+      "highlights": [""]
     },
     {
-      "name": "Hubii",
-      "position": "Senior FrontEnd Developer",
-      "startDate": "2011-03-01",
-      "endDate": "2016-05-01",
-      "summary": "Desarrollé una plataforma de noticias geolocalizadas y una API para consumir la información. Escalé los servicios para soportar la carga de más de cientos de miles de peticiones al día. Recorté los tiempos de entrega y despliegues a producción a la mitad. Colaboré con Mozilla y Telefónica para desarrollar la primera app para televisores con FirefoxOS.",
-      "highlights": [
-        "Started the company"
-      ]
+      "name": "GotoSend",
+      "position": "Desenvolvedor Web Freelance",
+      "startDate": "2024-08",
+      "endDate": "2024-12",
+      "summary": "Desenvolvi uma plataforma web completa e robusta para a venda de recargas de celular para Cuba e no exterior, e para a comercialização de vales-presente. O projeto incluiu a integração bem-sucedida de diversas APIs, como Innoverit e DTOne, para processamento automático de recargas, bem como a implementação do gateway de pagamento PAYCOMET para transações seguras. Utilizei uma pilha tecnológica robusta com PHP para lógica de negócios, Node.js e Express para o desenvolvimento de APIs personalizadas, MySQL como banco de dados relacional e Bootstrap com jQuery para uma interface responsiva e dinâmica. Além disso, desenvolvi um painel de administração para gerenciamento de usuários e recargas. Implementei tarefas cron para automatizar os processos do sistema, alcançando operações mais eficientes e reduzindo significativamente os tempos de processamento.",
+      "highlights": [""]
     }
   ],
-  "volunteer": [{
-    "organization": "Organization",
-    "position": "Volunteer",
-    "url": "https://organization.com/",
-    "startDate": "2012-01-01",
-    "endDate": "2013-01-01",
-    "summary": "Description…",
-    "highlights": [
-      "Awarded 'Volunteer of the Month'"
-    ]
-  }],
-  "education": [{
-    "institution": "Universitat Oberta de Catalunya",
-    "url": "https://www.uoc.edu/portal/es/index.html",
-    "area": "Ingeniero de Software",
-    "studyType": "Bachelor",
-    "startDate": "2003-01-01",
-    "endDate": "2009-01-01",
-    "score": "4.0",
-    "courses": [
-      "DB1101 - Basic SQL"
-    ]
-  }],
-  "awards": [{
-    "title": "Award",
-    "date": "2014-11-01",
-    "awarder": "Company",
-    "summary": "There is no spoon."
-  }],
-  "certificates": [{
-    "name": "Certificate",
-    "date": "2021-11-07",
-    "issuer": "Company",
-    "url": "https://certificate.com"
-  }],
-  "publications": [{
-    "name": "Publication",
-    "publisher": "Company",
-    "releaseDate": "2014-10-01",
-    "url": "https://publication.com",
-    "summary": "Description…"
-  }],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "IPVCE Máximo Gámez Báez",
+      "url": "https://www.uoc.edu/portal/es/index.html",
+      "area": "Ensino Medio",
+      "studyType": "Bacharel",
+      "startDate": "2021-01",
+      "endDate": "2023-07",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "certificates": [
+    {
+      "name": "Certificate",
+      "date": "2021-11-07",
+      "issuer": "Company",
+      "url": "https://certificate.com"
+    }
+  ],
+  "publications": [],
   "skills": [
     {
-      "name": "HTML",
-      "level": "Master",
-      "keywords": [
-        "Desarrollo Web", "Frontend"
-      ]
-    },
-    {
-      "name": "CSS",
-      "level": "Master",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "Diseño Responsive"
-      ]
-    },
-    {
-      "name": "JavaScript",
-      "level": "Master",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "Backend", "Fullstack"
-      ]
-    },
-    {
-      "name": "Tailwind",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
-      ]
-    },
-    {
       "name": "TypeScript",
-      "level": "Avanzado",
+      "level": "Avançado",
       "keywords": [
-        "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
+        "Desenvolvimento Web",
+        "Front-end",
+        "Back-end",
+        "Superconjunto JavaScript"
       ]
     },
     {
       "name": "Node",
-      "level": "Avanzado",
+      "level": "Avançado",
+      "keywords": ["Desenvolvimento Web", "Backend", "JavaScript", "Servidor"]
+    },
+    {
+      "name": "Nest.js",
+      "level": "Avançado",
+      "keywords": ["Desenvolvimento Web", "Back-end"]
+    },
+    {
+      "name": "Angular",
+      "level": "Avançado",
+      "keywords": ["Desenvolvimento Web", "Frontend"]
+    },
+    {
+      "name": "PHP",
+      "level": "Avançado",
+      "keywords": ["Desenvolvimento Web", "Frontend", "Backend"]
+    },
+    {
+      "name": "Laravel",
+      "level": "Avançado",
+      "keywords": ["Desenvolvimento Web", "Backend"]
+    },
+    {
+      "name": "Vue",
+      "level": "Avançado",
+      "keywords": ["Desenvolvimento Web", "Frontend"]
+    },
+    {
+      "name": "Tailwind",
+      "level": "Avançado",
       "keywords": [
-        "Desarrollo Web", "Backend", "JavaScript", "Servidor"
+        "Desenvolvimento Web",
+        "Frontend",
+        "Framework CSS",
+        "Design Responsivo"
       ]
     },
     {
       "name": "MySQL",
-      "level": "Avanzado",
+      "level": "Avançado",
       "keywords": [
-        "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
+        "Bancos de Dados",
+        "SQL",
+        "Armazenamento de Dados",
+        "Backend"
       ]
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "Avançado",
+      "keywords": ["Bancos de Dados", "SQL"]
+    },
+    {
+      "name": "MongoDB",
+      "level": "Avançado",
+      "keywords": ["Bancos de Dados", "NoSQL"]
     },
     {
       "name": "Git",
-      "level": "Avanzado",
-      "keywords": [
-        "Control de Versiones", "Colaboración", "Código Fuente"
-      ]
+      "level": "Avançado",
+      "keywords": ["Controle de Versão", "Colaboração", "Código-Fonte", "Git"]
     },
     {
       "name": "GitHub",
-      "level": "Avanzado",
-      "keywords": [
-        "Control de Versiones", "Colaboración", "Código Fuente", "Git"
-      ]
-    },
-    {
-      "name": "Next.js",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "React Framework", "SSR", "Static Generation"
-      ]
-    },
-    {
-      "name": "React",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
-      ]
+      "level": "Avançado",
+      "keywords": ["Controle de Versão", "Colaboração", "Código-Fonte", "Git"]
     }
   ],
-  "languages": [
-    {
-      "language": "Spanish",
-      "fluency": "Native speaker"
-    },
-    {
-      "language": "English",
-      "fluency": "Advanced"
-    }
-  ],
-  "interests": [{
-    "name": "Wildlife",
-    "keywords": [
-      "Ferrets",
-      "Unicorns"
-    ]
-  }],
-  "references": [{
-    "name": "Jane Doe",
-    "reference": "Reference…"
-  }],
+  "languages": [],
+  "interests": [],
+  "references": [],
   "projects": [
     {
-      "name": "mars.codes",
-      "isActive": true,
-      "description": "Historia interactiva con retos de programación para viajar a Marte",
-      "highlights": [
-        "Elige tu propia aventura",
-        "En desarrollo"
-      ],
-      "url": "https://mars.codes"
+      "name": "Brisas Caribe",
+      "description": "Desenvolvi um aplicativo de desktop com Tauri para o meu primo, que permite registrar e gerenciar as lavagens de carros diárias em seu lava-rápido.",
+      "highlights": ["Desktop", "Tauri", "Vue"],
+      "url": "https://github.com/CarMi0Proggramer/brisas-caribe"
     },
     {
-      "name": "AdventJS",
-      "isActive": true,
-      "description": "Retos de programación en JavaScript para cada día de diciembre hasta Navidad",
-      "highlights": [
-        "+1 millón de visitas",
-        "Multidioma",
-        "JavaScript & TypeScript"
-      ],
-      "url": "https://adventjs.dev"
-    },
-    {
-      "name": "Codember",
-      "isActive": true,
-      "description": "Juego interactivo de programación con retos y secretos",
-      "highlights": [
-        "+2000 usuarios activos",
-        "Retos para cualquier lenguaje"
-      ],
-      "url": "https://codember.dev"
-    },
-    {
-      "name": "codi.link",
-      "isActive": true,
-      "description": "Playground de código HTML, CSS y JavaScript para compartir",
-      "highlights": [
-        "100k visitas al mes",
-        "Desarrollado por la comunidad"
-      ],
-      "url": "https://codi.link",
-      "github": "https://github.com/midudev/codi.link"
-    },
-    {
-      "name": "Pruebas Técnicas",
-      "isActive": true,
-      "description": "Lista de pruebas técnicas de empresas para practicar programación",
-      "highlights": [
-        "100% gratuito",
-        "+500 soluciones de la comunidad"
-      ],
-      "url": "https://pruebastecnicas.com",
-      "github": "https://github.com/midudev/pruebas-tecnicas"
-    },
-    {
-      "name": "miduConf",
-      "description": "Conferencia de programación en streaming para la comunidad hispanohablante con charlas top",
-      "highlights": [
-        "+15k tickets repartidos",
-        "+50k espectadores en directo"
-      ],
-      "url": "https://miduconf.com"
+      "name": "Leaflet - LabelsRenderer",
+      "description": "Desenvolvi um plugin para o Leaflet, inspirado nos plugins LabelTextCollision e L.StreetLabels, mas com melhor desempenho e eficiência, criado especialmente para um projeto de um cliente.",
+      "highlights": ["Plugin", "Leaflet", "JavaScript & TypeScript"],
+      "url": "https://github.com/CarMi0Proggramer/leaflet-labels-renderer"
     }
   ]
 }
