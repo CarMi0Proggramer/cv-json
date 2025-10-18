@@ -32,7 +32,7 @@
       "name": "Bombero Callejero",
       "position": "Desenvolvedor Web Freelance",
       "url": "https://www.bomberocallejero.es",
-      "startDate": "2025-01",
+      "startDate": "2025-1",
       "endDate": null,
       "summary": "Refactorização e correção de uma plataforma web educativa para bombeiros em Espanha, que oferece mapas de ruas detalhados, juntamente com questionários interativos para avaliar o conhecimento através de perguntas baseadas em mapas, com foco na preparação e formação profissional do corpo de bombeiros. O projeto, inicialmente desenvolvido por outra pessoa, exigiu a correção de inúmeros bugs, o trabalho com mapas utilizando o Leaflet, incluindo a criação do meu próprio plugin Leaflet para renderizar texto em polilinhas com desempenho otimizado, a migração de dois servidores do Laravel 8 e Laravel 9 para o Laravel 10, a implementação de enfileiramento de tarefas para melhor processamento, a otimização de endpoints, o desenvolvimento do frontend com Vue e TypeScript para criar as interfaces de utilizador e a criação de uma secção de imagem digital com um editor do estilo Canva utilizando a biblioteca Konva.js.",
       "highlights": [""]
