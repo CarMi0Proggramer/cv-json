@@ -1,0 +1,196 @@
+{
+  "basics": {
+    "name": "Carlos Miguel",
+    "label": "Desarrollador Web Full Stack con más de 3 años de experiencia",
+    "image": "/me.jpg",
+    "email": "carlosmiguel.dev06@gmail.com",
+    "phone": "+55 (41) 99290-6626",
+    "url": "https://carlos-miguel.vercel.app",
+    "summary": "Soy un desarrollador autodidacta con más de 3 años de estudios independientes en programación y casi 2 años de experiencia profesional realizando proyectos como freelancer. Tengo experiencia en el desarrollo de aplicaciones web utilizando tecnologías modernas con enfoque en crear soluciones funcionales, eficientes y bien estructuradas. Soy hablante nativo de español y tengo dominio del inglés y portugués, lo que facilita la colaboración en ambientes multiculturales. Actualmente resido en Brasil y busco nuevas oportunidades para continuar evolucionando profesionalmente y contribuir con equipos y proyectos en el área de desarrollo web.",
+    "location": {
+      "address": "",
+      "postalCode": "81110-220",
+      "city": "Curitiba",
+      "countryCode": "BR",
+      "region": "Paraná"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "Carlos Miguel",
+        "url": "https://linkedin.com/in/carlos-miguel06"
+      },
+      {
+        "network": "GitHub",
+        "username": "Carlos Miguel",
+        "url": "https://github.com/CarMi0Proggramer"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Bombero Callejero",
+      "position": "Desarrollador Web Freelance",
+      "url": "https://www.bomberocallejero.es",
+      "startDate": "2025-1",
+      "endDate": "2026-1",
+      "summary": "Refactorización y corrección de una plataforma web educativa para bomberos en España que ofrece mapas de calles detallados junto con cuestionarios interactivos para evaluar el conocimiento a través de preguntas basadas en mapas, con enfoque en la preparación y formación profesional del cuerpo de bomberos. El proyecto, inicialmente desarrollado por otra persona, requirió la corrección de numerosos bugs, trabajo con mapas utilizando Leaflet, incluyendo la creación de mi propio plugin Leaflet para renderizar texto en polilíneas con desempeño optimizado, migración de dos servidores de Laravel 8 y Laravel 9 a Laravel 10, implementación de encolamiento de tareas para mejor procesamiento, optimización de endpoints, desarrollo del frontend con Vue y TypeScript para crear las interfaces de usuario y creación de una sección de imagen digital con un editor estilo Canva utilizando la librería Konva.js.",
+      "highlights": [""]
+    },
+    {
+      "name": "Carlos Miguel",
+      "position": "Creador de contenido",
+      "url": "https://www.youtube.com/@cm_dev06",
+      "startDate": "2024-09",
+      "endDate": null,
+      "summary": "Creación de contenido educativo sobre desarrollo web, incluyendo tutoriales y explicaciones de conceptos de programación. Producción de videos y materiales didácticos dirigidos a desarrolladores principiantes. Construcción y crecimiento de una audiencia en línea con más de 200 seguidores interesados en tecnología y programación.",
+      "highlights": [""]
+    },
+    {
+      "name": "GotoSend",
+      "position": "Desarrollador Web Freelance",
+      "startDate": "2024-08",
+      "endDate": "2024-12",
+      "summary": "Desarrollé una plataforma web completa y robusta para la venta de recargas de celular para Cuba y el exterior, así como para la comercialización de tarjetas de regalo. El proyecto incluyó la integración exitosa de diversas APIs como Innoverit y DTOne para procesamiento automático de recargas, así como la implementación de la pasarela de pago PAYCOMET para transacciones seguras. Utilicé una pila tecnológica robusta con PHP para lógica de negocio, Node.js y Express para el desarrollo de APIs personalizadas, MySQL como base de datos relacional y Bootstrap con jQuery para una interfaz responsiva y dinámica. Además, desarrollé un panel de administración para gestión de usuarios y recargas. Implementé tareas cron para automatizar los procesos del sistema, logrando operaciones más eficientes y reduciendo significativamente los tiempos de procesamiento.",
+      "highlights": [""]
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "IPVCE Máximo Gámez Báez",
+      "url": "https://www.uoc.edu/portal/es/index.html",
+      "area": "Enseñanza Media",
+      "studyType": "Bachiller",
+      "startDate": "2021-01",
+      "endDate": "2023-07",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "certificates": [
+    {
+      "name": "NestJS + Pruebas: Pruebas Unitarias y Pruebas End-to-End (E2E)",
+      "date": "2026-03-11",
+      "issuer": "Udemy",
+      "url": "https://www.udemy.com/certificate/UC-0b353881-46e6-473c-9f89-e91e02d2115d/"
+    },
+    {
+      "name": "Nest: Desarrollo de backend escalable con Node.js",
+      "date": "2026-02-20",
+      "issuer": "Udemy",
+      "url": "https://www.udemy.com/certificate/UC-84d602e8-10a3-4943-a218-f786b09b6515/"
+    }
+  ],
+  "publications": [],
+  "skills": [
+    {
+      "name": "TypeScript",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Front-end",
+        "Back-end",
+        "Superconjunto de JavaScript"
+      ]
+    },
+    {
+      "name": "Node",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Backend", "JavaScript", "Servidor"]
+    },
+    {
+      "name": "Nest.js",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Back-end"]
+    },
+    {
+      "name": "Angular",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Frontend"]
+    },
+    {
+      "name": "PHP",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Frontend", "Backend"]
+    },
+    {
+      "name": "Laravel",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Backend"]
+    },
+    {
+      "name": "Vue",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Frontend"]
+    },
+    {
+      "name": "Tailwind",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "Framework CSS",
+        "Diseño Responsivo"
+      ]
+    },
+    {
+      "name": "MySQL",
+      "level": "Avanzado",
+      "keywords": [
+        "Bases de Datos",
+        "SQL",
+        "Almacenamiento de Datos",
+        "Backend"
+      ]
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "Avanzado",
+      "keywords": ["Bases de Datos", "SQL"]
+    },
+    {
+      "name": "MongoDB",
+      "level": "Avanzado",
+      "keywords": ["Bases de Datos", "NoSQL"]
+    },
+    {
+      "name": "Git",
+      "level": "Avanzado",
+      "keywords": [
+        "Control de Versiones",
+        "Colaboración",
+        "Código Fuente",
+        "Git"
+      ]
+    },
+    {
+      "name": "GitHub",
+      "level": "Avanzado",
+      "keywords": [
+        "Control de Versiones",
+        "Colaboración",
+        "Código Fuente",
+        "Git"
+      ]
+    }
+  ],
+  "languages": [],
+  "interests": [],
+  "references": [],
+  "projects": [
+    {
+      "name": "Brisas Caribe",
+      "description": "Desarrollé una aplicación de escritorio con Tauri para mi primo que permite registrar y gestionar los lavados de autos diarios en su lavadero rápido.",
+      "highlights": ["Desktop", "Tauri", "Vue"],
+      "url": "https://github.com/CarMi0Proggramer/brisas-caribe"
+    },
+    {
+      "name": "Leaflet - LabelsRenderer",
+      "description": "Desarrollé un plugin para Leaflet, inspirado en los plugins LabelTextCollision y L.StreetLabels, pero con mejor desempeño y eficiencia, creado especialmente para un proyecto de un cliente.",
+      "highlights": ["Plugin", "Leaflet", "JavaScript & TypeScript"],
+      "url": "https://github.com/CarMi0Proggramer/leaflet-labels-renderer"
+    }
+  ]
+}
