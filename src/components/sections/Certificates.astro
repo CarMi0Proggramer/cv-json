@@ -1,9 +1,13 @@
 ---
+import { getLangFromUrl, useCV, useHeadersTranslations } from "@/utils";
 import Section from "../Section.astro";
-import { certificates } from "@cv";
+
+const lang = getLangFromUrl(Astro.url);
+const headers = useHeadersTranslations(lang);
+const { certificates } = await useCV(lang);
 ---
 
-<Section title="Certificações">
+<Section title={headers.certificates}>
   <ul>
     {
       certificates.map(({ name, issuer, date, url }) => {

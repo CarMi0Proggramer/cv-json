@@ -1,11 +1,13 @@
 ---
-import { info } from "node_modules/astro/dist/core/logger/core";
+import { useCV, getLangFromUrl, useHeadersTranslations } from "@/utils";
 import Section from "../Section.astro";
 
-import { work } from "@cv";
+const lang = getLangFromUrl(Astro.url);
+const { work } = await useCV(lang);
+const headers = useHeadersTranslations(lang);
 ---
 
-<Section title="Experiência">
+<Section title={headers.experience}>
   <ul>
     {
       work.map(

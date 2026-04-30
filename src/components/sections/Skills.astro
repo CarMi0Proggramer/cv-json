@@ -17,7 +17,11 @@ import Nest from "@/icons/node.astro";
 import PHP from "@/icons/php.astro";
 import Laravel from "@/icons/laravel.astro";
 import Docker from "@/icons/docker.astro";
-import { skills } from "@cv";
+import { getLangFromUrl, useCV, useHeadersTranslations } from "@/utils";
+
+const lang = getLangFromUrl(Astro.url);
+const { skills } = await useCV(lang);
+const headers = useHeadersTranslations(lang);
 
 const SKILLS_ICONS: Record<string, any> = {
   HTML,
@@ -40,7 +44,7 @@ const SKILLS_ICONS: Record<string, any> = {
 };
 ---
 
-<Section title="Habilidades">
+<Section title={headers.skills}>
   <ul>
     {
       skills.map(({ name }) => {
