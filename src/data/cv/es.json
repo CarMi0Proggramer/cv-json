@@ -6,11 +6,16 @@
     "email": "carlosmiguel.dev06@gmail.com",
     "phone": "+55 (41) 99290-6626",
     "url": "https://carlos-miguel.vercel.app",
-    "summary": "Soy un desarrollador autodidacta con más de 3 años de estudios independientes en programación y casi 2 años de experiencia profesional realizando proyectos como freelancer. Tengo experiencia en el desarrollo de aplicaciones web utilizando tecnologías modernas con enfoque en crear soluciones funcionales, eficientes y bien estructuradas. Soy hablante nativo de español y tengo dominio del inglés y portugués, lo que facilita la colaboración en ambientes multiculturales. Actualmente resido en Brasil y busco nuevas oportunidades para continuar evolucionando profesionalmente y contribuir con equipos y proyectos en el área de desarrollo web.",
+    "summary": [
+      "Más de 3 años de experiencia como desarrollador web",
+      "Hablante nativo de español",
+      "Portugués e inglés fluidos",
+      "Especializado en crear soluciones web funcionales y bien estructuradas"
+    ],
     "location": {
-      "address": "",
-      "postalCode": "81110-220",
+      "postalCode": "81110-200",
       "city": "Curitiba",
+      "address": "Capão Raso",
       "countryCode": "BR",
       "region": "Paraná"
     },
@@ -34,7 +39,12 @@
       "url": "https://www.bomberocallejero.es",
       "startDate": "2025-1",
       "endDate": "2026-1",
-      "summary": "Refactorización y corrección de una plataforma web educativa para bomberos en España que ofrece mapas de calles detallados junto con cuestionarios interactivos para evaluar el conocimiento a través de preguntas basadas en mapas, con enfoque en la preparación y formación profesional del cuerpo de bomberos. El proyecto, inicialmente desarrollado por otra persona, requirió la corrección de numerosos bugs, trabajo con mapas utilizando Leaflet, incluyendo la creación de mi propio plugin Leaflet para renderizar texto en polilíneas con desempeño optimizado, migración de dos servidores de Laravel 8 y Laravel 9 a Laravel 10, implementación de encolamiento de tareas para mejor procesamiento, optimización de endpoints, desarrollo del frontend con Vue y TypeScript para crear las interfaces de usuario y creación de una sección de imagen digital con un editor estilo Canva utilizando la librería Konva.js.",
+      "summary": [
+        "Refactoricé y corregí una plataforma educativa para bomberos en España",
+        "Trabajé con mapas interactivos, Leaflet y desarrollé un plugin propio para renderizar texto en polilíneas",
+        "Migré servidores de Laravel 8 y 9 a Laravel 10, optimicé endpoints y tareas",
+        "Creé un editor estilo Canva con Konva.js"
+      ],
       "highlights": [""]
     },
     {
@@ -43,7 +53,11 @@
       "url": "https://www.youtube.com/@cm_dev06",
       "startDate": "2024-09",
       "endDate": null,
-      "summary": "Creación de contenido educativo sobre desarrollo web, incluyendo tutoriales y explicaciones de conceptos de programación. Producción de videos y materiales didácticos dirigidos a desarrolladores principiantes. Construcción y crecimiento de una audiencia en línea con más de 200 seguidores interesados en tecnología y programación.",
+      "summary": [
+        "Creé contenido educativo sobre desarrollo web con tutoriales y explicaciones de conceptos",
+        "Produje videos y materiales para desarrolladores principiantes",
+        "Construí una audiencia en línea con más de 200 seguidores"
+      ],
       "highlights": [""]
     },
     {
@@ -51,7 +65,11 @@
       "position": "Desarrollador Web Freelance",
       "startDate": "2024-08",
       "endDate": "2024-12",
-      "summary": "Desarrollé una plataforma web completa y robusta para la venta de recargas de celular para Cuba y el exterior, así como para la comercialización de tarjetas de regalo. El proyecto incluyó la integración exitosa de diversas APIs como Innoverit y DTOne para procesamiento automático de recargas, así como la implementación de la pasarela de pago PAYCOMET para transacciones seguras. Utilicé una pila tecnológica robusta con PHP para lógica de negocio, Node.js y Express para el desarrollo de APIs personalizadas, MySQL como base de datos relacional y Bootstrap con jQuery para una interfaz responsiva y dinámica. Además, desarrollé un panel de administración para gestión de usuarios y recargas. Implementé tareas cron para automatizar los procesos del sistema, logrando operaciones más eficientes y reduciendo significativamente los tiempos de procesamiento.",
+      "summary": [
+        "Desarrollé una plataforma web para vender recargas y tarjetas regalo para Cuba y el exterior",
+        "Integré APIs como Innoverit y DTOne y la pasarela PAYCOMET para pagos seguros",
+        "Usé PHP, Node.js, MySQL y Bootstrap, y desarrollé un panel de administración con tareas cron"
+      ],
       "highlights": [""]
     }
   ],

@@ -6,11 +6,16 @@
     "email": "carlosmiguel.dev06@gmail.com",
     "phone": "+55 (41) 99290-6626",
     "url": "https://carlos-miguel.vercel.app",
-    "summary": "I am a self-taught developer with over 3 years of independent programming studies and almost 2 years of professional experience working on freelance projects. I have experience developing web applications using modern technologies with a focus on creating functional, efficient, and well-structured solutions. I am a native Spanish speaker with proficiency in English and Portuguese, which facilitates collaboration in multicultural environments. I currently reside in Brazil and am seeking new opportunities to continue evolving professionally and contributing to teams and projects in the web development field.",
+    "summary": [
+      "3+ years of experience as a web developer",
+      "Native Spanish speaker",
+      "Fluent in Portuguese and English",
+      "Focused on building functional and well-structured web solutions"
+    ],
     "location": {
-      "address": "",
-      "postalCode": "81110-220",
+      "postalCode": "81110-200",
       "city": "Curitiba",
+      "address": "Capão Raso",
       "countryCode": "BR",
       "region": "Paraná"
     },
@@ -34,7 +39,12 @@
       "url": "https://www.bomberocallejero.es",
       "startDate": "2025-1",
       "endDate": "2026-1",
-      "summary": "Refactoring and fixing an educational web platform for firefighters in Spain that offers detailed street maps along with interactive quizzes to assess knowledge through map-based questions, with a focus on professional preparation and training for the fire department. The project, initially developed by someone else, required fixing numerous bugs, working with maps using Leaflet, including creating my own Leaflet plugin to render text on polylines with optimized performance, migrating two Laravel 8 and Laravel 9 servers to Laravel 10, implementing task queuing for better processing, optimizing endpoints, developing the frontend with Vue and TypeScript to create user interfaces, and creating a digital image section with a Canva-style editor using the Konva.js library.",
+      "summary": [
+        "Refactored and fixed an educational platform for firefighters in Spain",
+        "Worked with interactive maps, Leaflet, and built a custom plugin to render text on polylines",
+        "Migrated Laravel 8 and 9 servers to Laravel 10 and improved endpoints, queues, and the Vue/TypeScript frontend",
+        "Created a Canva-style editor with Konva.js"
+      ],
       "highlights": [""]
     },
     {
@@ -43,7 +53,11 @@
       "url": "https://www.youtube.com/@cm_dev06",
       "startDate": "2024-09",
       "endDate": null,
-      "summary": "Creating educational content about web development, including tutorials and programming concept explanations. Producing videos and teaching materials aimed at beginner developers. Building and growing an online audience with over 200 followers interested in technology and programming.",
+      "summary": [
+        "Created educational web development content with tutorials and concept explanations",
+        "Produced videos and materials for beginner developers",
+        "Built an online audience with over 200 followers"
+      ],
       "highlights": [""]
     },
     {
@@ -51,7 +65,11 @@
       "position": "Freelance Web Developer",
       "startDate": "2024-08",
       "endDate": "2024-12",
-      "summary": "I developed a complete and robust web platform for selling cell phone recharges for Cuba and abroad, as well as for selling gift cards. The project included successful integration of various APIs such as Innoverit and DTOne for automatic recharge processing, as well as implementing the PAYCOMET payment gateway for secure transactions. I used a robust technology stack with PHP for business logic, Node.js and Express for developing custom APIs, MySQL as a relational database, and Bootstrap with jQuery for a responsive and dynamic interface. Additionally, I developed an admin panel for user and recharge management. I implemented cron jobs to automate system processes, achieving more efficient operations and significantly reducing processing times.",
+      "summary": [
+        "Built a web platform for selling recharges and gift cards for Cuba and abroad",
+        "Integrated APIs such as Innoverit and DTOne and the PAYCOMET gateway for secure payments",
+        "Used PHP, Node.js, MySQL and Bootstrap, and built an admin panel with cron jobs"
+      ],
       "highlights": [""]
     }
   ],

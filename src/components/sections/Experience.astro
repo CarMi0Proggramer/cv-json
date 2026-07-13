@@ -5,6 +5,15 @@ import Section from "../Section.astro";
 const lang = getLangFromUrl(Astro.url);
 const { work } = await useCV(lang);
 const headers = useHeadersTranslations(lang);
+
+const formatDate = (date: string) => {
+  return new Date(date)
+    .toLocaleDateString(lang, {
+      year: "numeric",
+      month: "short",
+    })
+    .replace(/^./, (char) => char.toUpperCase());
+};
 ---
 
 <Section title={headers.experience}>
@@ -12,9 +21,9 @@ const headers = useHeadersTranslations(lang);
     {
       work.map(
         ({ name, startDate, endDate, position, summary, highlights, url }) => {
-          const startYear = new Date(startDate).getFullYear();
-          const endYear =
-            endDate != null ? new Date(endDate).getFullYear() : "Atual";
+          const formattedStartDate = formatDate(startDate);
+          const formattedEndDate =
+            endDate != null ? formatDate(endDate) : "Atual";
 
           return (
             <li>
@@ -31,17 +40,21 @@ const headers = useHeadersTranslations(lang);
 
                   <div>
                     <time datetime={startDate} data-title={startDate}>
-                      {startYear}
+                      {formattedStartDate}
                     </time>
                     {" - "}
                     <time datetime={endDate} data-title={endDate}>
-                      {endYear}
+                      {formattedEndDate}
                     </time>
                   </div>
                 </header>
 
                 <footer>
-                  <p>{summary}</p>
+                  <ul class="summary-list">
+                    {summary.map((item) => (
+                      <li>{item}</li>
+                    ))}
+                  </ul>
                 </footer>
               </article>
             </li>
@@ -89,6 +102,22 @@ const headers = useHeadersTranslations(lang);
     font-size: 0.85rem;
     min-width: 102px;
     cursor: default;
+  }
+
+  .summary-list {
+    margin: 0;
+    padding-left: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    color: #444;
+    list-style: disc;
+    list-style-position: outside;
+  }
+
+  .summary-list li {
+    line-height: 1.6;
+    display: list-item;
   }
 
   [data-title]:hover:after {

@@ -7,10 +7,30 @@ const headers = useHeadersTranslations(lang);
 const {
   basics: { summary },
 } = await useCV(lang);
+
+const summaryItems = Array.isArray(summary) ? summary : [summary];
 ---
 
 <Section title={headers.about}>
-  <p>
-    {summary}
-  </p>
+  <ul class="summary-list">
+    {summaryItems.map((item) => <li>{item}</li>)}
+  </ul>
 </Section>
+
+<style>
+  .summary-list {
+    margin: 0;
+    padding-left: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    color: #444;
+    list-style: disc;
+    list-style-position: outside;
+  }
+
+  .summary-list li {
+    line-height: 1.6;
+    display: list-item;
+  }
+</style>

@@ -12,7 +12,7 @@ const { certificates } = await useCV(lang);
     {
       certificates.map(({ name, issuer, date, url }) => {
         const formattedDate = new Date(date)
-          .toLocaleDateString("pt-BR", {
+          .toLocaleDateString(lang, {
             month: "short",
             year: "numeric",
           })

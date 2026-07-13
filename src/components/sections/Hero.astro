@@ -12,7 +12,7 @@ import { getLangFromUrl, useCV } from "@/utils";
 const lang = getLangFromUrl(Astro.url);
 const { basics } = await useCV(lang);
 const { name, label, image, location, profiles, phone, email } = basics;
-const { city, region } = location;
+const { address, city, region } = location;
 
 const SOCIAL_ICONS: SocialIcon = {
   GitHub,
@@ -33,7 +33,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
       <h2>{label}</h2>
       <span>
         <WorldMap />
-        {city}, {region}
+        {`${address}, ${city}, ${region}`}
       </span>
       <footer class="print">
         {printInfo}
@@ -47,6 +47,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
               rel="noopener noreferrer"
             >
               <Mail />
+              <span>{email}</span>
             </a>
           )
         }
@@ -54,25 +55,24 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
           phone && (
             <a href={`tel:${phone}`} target="_blank" rel="noopener noreferrer">
               <Phone />
+              <span>{phone}</span>
             </a>
           )
         }
         {
-          profiles.map(({ network, url, username }) => {
-            const Icon = SOCIAL_ICONS[network];
+          profiles.map(({ network, url }) => {
+            const Icon = SOCIAL_ICONS[network as keyof typeof SOCIAL_ICONS];
 
             return (
               <a href={url} target="_blank" rel="noopener noreferrer">
-                <Icon />
+                {Icon && <Icon />}
+                <span>{url}</span>
               </a>
             );
           })
         }
       </footer>
     </div>
-    <figure>
-      <img src={image} alt={name} />
-    </figure>
   </div>
 </Section>
 
@@ -103,13 +103,6 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
     text-wrap: balance;
   }
 
-  img {
-    aspect-ratio: 1 / 1;
-    object-fit: cover;
-    width: 128px;
-    border-radius: 16px;
-  }
-
   span {
     color: #666;
     display: flex;
@@ -121,9 +114,10 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
 
   footer {
     color: #555;
-    font-size: 0.65rem;
+    font-size: 0.75rem;
     display: flex;
-    gap: 4px;
+    flex-wrap: wrap;
+    gap: 0.5rem;
     margin-top: 8px;
   }
 
@@ -132,11 +126,10 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    gap: 0.35rem;
     border: 1px solid #eee;
-    padding: 4px;
-    height: 32px;
-    width: 32px;
-    border-radius: 6px;
+    padding: 0.4rem 0.7rem;
+    border-radius: 999px;
     transition: all 0.3s ease;
   }
 
@@ -157,18 +150,8 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
       text-align: center;
     }
 
-    figure {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-
     h2 {
       text-wrap: balance;
-    }
-
-    figure {
-      margin: 0 auto;
     }
   }
 </style>
